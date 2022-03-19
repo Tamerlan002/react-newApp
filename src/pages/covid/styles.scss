@@ -1,0 +1,85 @@
+@import "../../styles/variables.scss";
+.covid {
+  color: $white;
+  padding: 100px 0;
+  .home__shadowText {
+    overflow-x: hidden;
+  }
+  .home__shadowText--title {
+    font-size: 140px;
+    font-family: sans-serif Euclid Circular;
+    letter-spacing: 0.03em;
+    width: 1789.97px;
+    margin-left: 0;
+    margin-top: 50px;
+    font-weight: 900;
+  }
+  .Covid-text {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    .Information {
+      width: 89%;
+      .title {
+        margin-bottom: 70px;
+      }
+      h4 {
+        font-size: 72px;
+        font-weight: 700;
+        font-family: sans-serif Euclid Circular;
+        margin-left: 0 !important;
+      }
+      h5 {
+        font-size: 24px;
+        letter-spacing: 0.03em;
+        font-weight: 700;
+        font-family: sans-serif Euclid Circular;
+      }
+      p {
+        letter-spacing: 0.03em;
+        font-family: sans-serif Euclid Circular;
+        font-size: 16px;
+        line-height: 48px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .covid {
+    .home__shadowText--title {
+      font-size: 85px !important;
+    }
+    .Covid-text {
+      h4 {
+        font-size: 40px !important;
+      }
+      h5 {
+        font-size: 18px !important;
+      }
+      p {
+        font-size: 14px !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 922px) {
+  .covid {
+    .home__shadowText--title {
+      font-size: 100px;
+    }
+    .Covid-text {
+      h4 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 15px;
+      }
+      .query {
+        h2 {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}

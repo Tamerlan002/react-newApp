@@ -1,0 +1,222 @@
+@import "../../styles/variables.scss";
+.partners {
+  color: $white;
+  .home__shadowText {
+    overflow-x: hidden;
+  }
+  .home__slogan--title {
+    width: auto;
+    font-size: 60px;
+    font-family: sans-serif "Euclid Circular B";
+    letter-spacing: 0.02em;
+    margin-left: 0 !important;
+    margin-top: 100px;
+    font-weight: 900;
+  }
+  // Partners Section
+  .Partners {
+    display: flex;
+    justify-content: center;
+    .title {
+      width: 89%;
+    }
+   
+  }
+  .partners-section {
+    display: flex;
+    justify-content: center;
+    .slider-orders {
+      width: 89%;
+      // Slider
+      .slick-sliders {
+        h2 {
+          display: none;
+        }
+        .product-image {
+          position: relative;
+          width: 96% !important;
+          cursor: pointer;
+          &:hover {
+            .product-info {
+              bottom: 50px;
+            }
+          }
+          img {
+            width: 100%;
+            height: 320px;
+          }
+          .product-info {
+            transition: 0.8s;
+            position: absolute;
+            bottom: -30px;
+            left: 20px;
+            .title-img {
+              width: 70px !important;
+              height: 40px !important;
+            }
+            p {
+              margin-bottom: 0;
+              font-family: sans-serif;
+              font-size: 16px;
+              line-height: 26px;
+              letter-spacing: 0.03em;
+            }
+          }
+          .cta {
+            span {
+              font-size: 12px !important;
+              padding-bottom: 20px !important;
+            }
+            i {
+              transform: translateX(30px);
+            }
+            &:hover i {
+              transform: translateX(70px);
+              color: #ffd700;
+            }
+            .hover-underline-animation:after {
+              width: 190px;
+            }
+          }
+        }
+        
+      .slick-initialized {
+        h2 {
+          font-size: 24px;
+          letter-spacing: 0.03em;
+          font-weight: 600;
+          font-family: sans-serif;
+        }
+        .slick-prev {
+          top: -70px;
+          left: 89%;
+        }
+        .slick-next {
+          top: -70px;
+          right: 3%;
+        }
+        .slick-next,
+        .slick-prev {
+          &::before {
+            font-family: sans-serif !important;
+            border: 1px solid rgb(59, 59, 59);
+            border-radius: 50%;
+            padding: 5px 7px 7px 7px;
+          }
+          &:hover {
+            &::before {
+              font-family: sans-serif !important;
+              border-color: white;
+            }
+          }
+        }
+      }
+      }
+      // Slider
+
+      .orders {
+        h5 {
+          font-weight: 600;
+          width: 420px;
+          font-family: sans-serif;
+          font-size: 24px;
+          line-height: 48px;
+          letter-spacing: 0.03em;
+        }
+        img {
+          width: 25.001%;
+          height: 75px;
+        }
+        br {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+}
+// RESPONSIVE
+@media only screen and (max-width: 600px) {
+  .partners {
+    .home__shadowText--title {
+      font-size: 90px !important;
+    }
+    .home__slogan--title {
+      font-size: 20px !important;
+      line-height: 40px;
+    }
+    .orders {
+      h5 {
+        width: auto !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .partners {
+    .orders {
+      h5 {
+        font-size: 20px !important;
+      }
+      img {
+        width: 35% !important;
+      }
+    }
+    // Slider
+    .slick-slider {
+      .product-image {
+        img {
+          height: 300px !important;
+        }
+        .product-info {
+          .title-img {
+            width: 7;
+          }
+          h2 {
+            font-size: 17px !important;
+          }
+          p {
+            font-size: 13px !important;
+          }
+        }
+        .cta {
+          i {
+            transform: translateX(20px) !important;
+          }
+          &:hover i {
+            transform: translateX(50px) !important;
+            color: #ffd700;
+          }
+          .hover-underline-animation:after {
+            width: 170px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .partners {
+    .home__shadowText--title {
+      font-size: 100px;
+    }
+    .home__slogan--title {
+      font-size: 30px;
+      margin-top: 60px;
+    }
+
+    // Slider
+    .slick-initialized {
+      h2 {
+        font-size: 19px !important;
+      }
+      .slick-prev {
+        top: -50px !important;
+        left: 80% !important;
+      }
+      .slick-next {
+        top: -50px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+@import "../../../styles/variables.scss";
+
+.categoryPage {
+  padding: 0px 70px 50px;
+  color: $white;
+  padding-top: 100px;
+
+  .home__shadowText {
+    overflow-x: hidden;
+  }
+  .home__slogan--title {
+    width: auto;
+    font-size: 60px;
+    margin-left: 0 !important;
+  }
+  label {
+    font-size: 16px;
+    font-family: "Euclid-Circular-B-Regular";
+    letter-spacing: 0.03em;
+  }
+  input {
+    border: 1px solid #4f4f4f;
+    background-color: rgba(35, 35, 35, 1);
+    color: white;
+    &:focus {
+      color: white;
+      background-color: transparent;
+    }
+  }
+  textarea {
+    border: 1px solid #4f4f4f;
+    background-color: rgba(35, 35, 35, 1);
+    color: white;
+    resize: none;
+    height: 250px;
+    &:focus {
+      color: white;
+      background-color: transparent;
+    }
+  }
+  .send {
+    position: relative;
+    padding-right: 50px;
+    text-align: center;
+    .cta {
+      i {
+        transform: translateX(40px);
+      }
+      &:hover i {
+        transform: translateX(83px);
+      }
+      .hover-underline-animation:after {
+        width: 150px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .categoryPage {
+    .home__slogan--title {
+      font-size: 35px !important;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .categoryPage {
+    .home__slogan--title {
+      font-size: 40px;
+    }
+  }
+}

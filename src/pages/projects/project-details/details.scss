@@ -1,0 +1,64 @@
+.Details {
+    color: white;
+    display: flex;
+    justify-content: center;
+    .details-full {
+        width: 89%;
+        .image {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            .img {
+                position: relative;
+                width: 800px;
+                max-height: 515px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                .project-name {
+                    position: absolute;
+                    font-family: sans-serif Euclid Circular B;
+                    font-weight: 700;
+                    bottom: 30px;
+                    right: 30px;
+                    font-size: 30px;
+                    letter-spacing: 0.12em;
+                }
+            }
+        }
+        .about-project {
+            padding: 50px 0;
+            h5 {
+                font-family: sans-serif Euclid Circular B;
+                width: 545px;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 48px;
+                letter-spacing: 0.03em;
+            }
+            p {
+                font-family: Euclid Circular B;
+                font-size: 16px;
+                line-height: 48px;
+                letter-spacing: 0.03em;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Details {
+        .image {
+            .project-name {
+                font-size: 22px !important;
+            }
+        }
+        .about-project {
+            h5 {
+                width: auto !important;
+                font-size: 20px;
+            }
+        }
+    }
+}

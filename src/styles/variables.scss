@@ -1,0 +1,43 @@
+$safron: #f7b633;
+$gold: #ffd700;
+$daintree-company: #01252a;
+$ebony-clay-clothing: #233142;
+$blue-whale-creative: #022c43;
+$bleached-corp: #261c2c;
+$white: #fff;
+$black: #000;
+$text-gray: #aaaaaa;
+$background: linear-gradient(135deg, #212121 0%, #000000 100%);
+$background-color: #212121;
+
+$box-shadow: 0px 2px 10px rgb(221, 221, 221);
+
+$font-size-paragraph: 20px;
+$font-size-title: 20px;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Euclid-Circular-B-Regular";
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+@font-face {
+  font-family: "Euclid-Circular-B-Regular";
+  src: url("../fonts/Euclid\ Circular\ B\ Regular.ttf");
+}
+
+a {
+  color: $white;
+  &:hover {
+    color: #aaa;
+  }
+}

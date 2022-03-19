@@ -1,0 +1,169 @@
+@import "../../styles/variables.scss";
+.footer {
+  padding-top: 50px;
+  background-color: $black;
+  color: $white;
+  &__container {
+    display: flex;
+    justify-content: center;
+    .footer-full {
+      width: 89%;
+    }
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    &-title {
+      font-size: 17.8px;
+      line-height: 23px;
+      letter-spacing: 0.02em;
+      margin-bottom: 30px;
+    }
+    &-about,
+    &-contact,
+    &-term {
+      .title-footer {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+      }
+      .titles {
+        display: flex;
+        flex-direction: column;
+        ul {
+          li {
+            padding-bottom: 10px;
+            .footer__top-item {
+              font-size: 15px;
+              line-height: 19px;
+              letter-spacing: 0.05em;
+              color: $text-gray;
+              text-decoration: none;
+              margin-bottom: 14px;
+              padding-bottom: 2px;
+              border: 1px solid transparent;
+              transition: 0.4s;
+              &:hover {
+                border-bottom: 1px solid $text-gray;
+              }
+            }
+          }
+        }
+      }
+    }
+    &-about, &-term{
+      display: flex;
+      justify-content: end;
+    }
+    &-info {
+      &--img {
+        margin-bottom: 30px;
+      }
+      &--text {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.02em;
+        color: $text-gray;
+      }
+    }
+  }
+
+  &__socials {
+    .input-div {
+      width: 400px;
+      border: 1px solid $white;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      input {
+        width: 100%;
+        background-color: transparent;
+        padding: 17px 20px;
+        border: none;
+        color: $white;
+        &:focus {
+          outline: none;
+        }
+      }
+      button {
+        position: absolute;
+        background-color: transparent;
+        top: 15px;
+        color: white;
+        border: none;
+        right: 15px;
+        cursor: pointer;
+      }
+    }
+    &--links {
+      display: flex;
+      padding: 17px 20px;
+      align-items: center;
+      justify-content: end;
+    }
+    &--link {
+      color: $white;
+      font-size: 20px;
+      margin-left: 22px;
+      transition: 0.4s;
+      &:hover {
+        color: $text-gray;
+      }
+    }
+  }
+  hr {
+    margin-top: 50px;
+  }
+  &__corp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      padding: 0;
+      color: $text-gray;
+    }
+  }
+}
+
+// .underline {
+//   text-decoration: underline;
+// }
+// RESPONSIVE
+@media only screen and (max-width: 600px) {
+.footer{
+  &__top{
+    &-info,
+    &-term,
+    &-contact,
+    &-about{
+      display: flex !important;
+      justify-content: center !important;
+    }
+
+  }
+}
+}
+@media only screen and (max-width: 992px) {
+  .footer {
+    &__top {
+      &-about {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+    &__socials {
+      display: flex;
+      justify-content: center;
+      width: 100% !important;
+      .input-div {
+        padding-left: 0;
+      }
+      &--links {
+        padding-top: 30px;
+        justify-content: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,410 @@
+@import "../../styles/variables.scss";
+
+.ifoCoin {
+  color: $white;
+  padding-top: 130px;
+  .home__shadowText {
+    overflow-x: hidden;
+  }
+  .home__shadowText--title {
+    font-size: 145px;
+    font-family: sans-serif Euclid Circular B;
+    letter-spacing: 0.04em;
+    width: 100%;
+    margin-left: -20px !important;
+    margin-top: 30px;
+    font-weight: 900;
+  }
+  // IFO first sec
+  .ifo-section {
+    width: 89%;
+    .text {
+      .title {
+        h4 {
+          font-size: 70px;
+          font-weight: 700;
+          line-height: 75px;
+          font-family: sans-serif Euclid Circular B;
+          margin-left: 0 !important;
+        }
+      }
+      p {
+        width: 540px;
+        font-family: sans-serif Euclid Circular B;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+      }
+      .cta {
+        i {
+          transform: translateX(20px);
+        }
+        &:hover i {
+          transform: translateX(50px);
+        }
+        .hover-underline-animation:after {
+          width: 173px;
+        }
+        &:hover {
+          i {
+            color: #ffd700 !important;
+          }
+        }
+      }
+    }
+    .image-box {
+      display: flex;
+      justify-content: end;
+    }
+    .ifo-everywhere {
+      margin: 100px 0;
+      h1 {
+        font-family: sans-serif Euclid Circular B;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 48px;
+        letter-spacing: 0.03em;
+      }
+      .subheader {
+        font-family: sans-serif Euclid Circular B;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+      }
+      .description {
+        // width: 300px;
+        font-family: sans-serif Euclid Circular B;
+        font-size: 15px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.03em;
+      }
+    }
+  }
+
+  // IFO countdown sec
+  .ifo-countdownpage {
+    background-color: black;
+    .countdown {
+      width: 89%;
+      padding: 50px 0;
+      h1 {
+        font-family: sans-serif Euclid Circular B;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 48px;
+        letter-spacing: 0.03em;
+      }
+      .text {
+        font-family: sans-serif Euclid Circular B;
+        font-size: 15px;
+        line-height: 48px;
+        letter-spacing: 0.02em;
+        padding: 0;
+      }
+      .progress-div {
+        width: 700px;
+        margin: auto;
+        .progress {
+          width: 87% !important;
+          border-radius: 25px;
+          background: #212121;
+        }
+        span {
+          font-family: sans-serif Euclid Circular B;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 0.03em;
+          color: #ffd700;
+        }
+      }
+      .count {
+        display: flex;
+        justify-content: space-between;
+        .count-box {
+          width: 25.01%;
+          h2 {
+            font-family: sans-serif Euclid Circular B;
+            font-size: 15px;
+            line-height: 20px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+          }
+          span {
+            font-family: sans-serif Euclid Circular B;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 26px;
+            letter-spacing: 0.03em;
+          }
+        }
+      }
+      .cta {
+        margin-left: -30px;
+        i {
+          transform: translateX(15px);
+        }
+        &:hover i {
+          transform: translateX(30px);
+        }
+        .hover-underline-animation:after {
+          width: 200px !important;
+        }
+        &:hover {
+          i {
+            color: #ffd700 !important;
+          }
+        }
+      }
+    }
+  }
+
+  // Pie Bar Chart
+  .pieChart {
+    margin: 100px 0;
+    .chart-section {
+      width: 89%;
+    }
+  }
+
+  // Roadmap-part start
+  .roadMap {
+    .map {
+      width: 89%;
+      .main_title {
+        font-family: sans-serif Euclid Circular B;
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 0.03em;
+      }
+      .main_desc {
+        font-family: sans-serif Euclid Circular B;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+      }
+    }
+    .main-roadmap {
+      overflow: hidden;
+      padding-bottom: 200px;
+      padding-top: 100px;
+      .h-border {
+        width: 100%;
+        height: 2px;
+        background: white;
+        margin-top: 181px;
+      }
+    }
+    .roadmap-box {
+      position: relative;
+      margin-top: -12px;
+    }
+
+    .small-round {
+      background: white;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      position: relative;
+      left: 50%;
+      margin-left: -10px;
+      z-index: 1;
+    }
+
+    .date-title {
+      position: absolute;
+      bottom: 100%;
+      color: #ffd700;
+      text-transform: uppercase;
+      width: 100%;
+      font-size: 16px;
+      letter-spacing: 0.03em;
+      padding: 12px 0;
+    }
+
+    .roadmap-slider .main-box .map-graphic {
+      overflow: hidden;
+    }
+    .roadmap-detail-box {
+      padding-top: 30px;
+      width: 100%;
+      position: absolute;
+      p {
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        margin-bottom: 0px;
+      }
+      h3 {
+        overflow: hidden;
+        font-weight: bold;
+        font-family: sans-serif Euclid Circular B;
+        font-size: 18px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
+    .roadmap-slider .owl-item:nth-child(2n + 0) .main-box .roadmap-detail-box {
+      position: absolute;
+      bottom: 100%;
+      margin-top: 0;
+      p {
+        margin-bottom: 10px;
+      }
+    }
+
+    .roadmap-slider .owl-item:nth-child(2n + 0) .main-box .roadmap-box {
+      padding-top: 50px;
+      margin-top: -62px;
+      text-align: center;
+      .date-title {
+        top: 100%;
+      }
+      .map-graphic {
+        transform: rotate(180deg);
+        display: inline-block;
+      }
+    }
+    .roadmap-slider {
+      .owl-item {
+        float: left;
+      }
+      .owl-nav {
+        display: none;
+      }
+      .item {
+        padding: 0 15px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// RESPONSIVE
+
+@media only screen and (max-width: 600px) {
+  .ifoCoin {
+    .home__shadowText--title {
+      font-size: 90px !important;
+    }
+    .home__slogan--title {
+      font-size: 30px !important;
+    }
+    // IFO countdown sec
+    .ifo-countdownpage {
+      .countdown {
+        .text {
+          font-size: 13.5px !important;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ifoCoin {
+    //  IFO first sec
+    .ifo-section {
+      h1 {
+        font-size: 20px !important;
+      }
+    }
+
+    // IFO countdown
+    .ifo-countdownpage {
+      .countdown {
+        h1 {
+          font-size: 30px !important;
+        }
+        .text {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .ifoCoin {
+    .home__shadowText--title {
+      font-size: 100px;
+    }
+    .home__slogan--title {
+      font-size: 40px;
+      margin-top: 60px;
+    }
+
+    //  IFO first sec
+    .ifo-section {
+      .text {
+        h4 {
+          font-size: 30px;
+        }
+        p {
+          width: 100% !important;
+          font-size: 15px;
+        }
+      }
+      .image-box {
+        justify-content: center;
+      }
+      .ifo-everywhere {
+        .subheader {
+          font-size: 16px !important;
+        }
+        .description {
+          width: 100% !important;
+        }
+      }
+    }
+
+    // IFO countdown
+    .ifo-countdownpage {
+      .countdown {
+        h1 {
+          font-size: 48px;
+        }
+      }
+      .progress-div {
+        width: auto !important;
+      }
+      .count {
+        justify-content: center;
+        flex-direction: column;
+        .count-box {
+          width: 100% !important;
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .ifoCoin {
+    .Ifo {
+      .About {
+        .ifo-left-side,
+        .ifo-right-side {
+          .ifo-img {
+            width: 100%;
+            height: auto;
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+          .ifo-text {
+            height: 330px;
+            h3 {
+              font-size: 23px;
+            }
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

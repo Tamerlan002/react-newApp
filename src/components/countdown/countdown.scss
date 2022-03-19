@@ -1,0 +1,43 @@
+  .countdown-time {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    article {
+      width: 500px;
+      p {
+        font-size: 45px !important;
+        font-weight: 600;
+        font-family: sans-serif Euclid Circular B;
+
+      }
+      h3 {
+        font-size: 14px;
+        font-family: sans-serif Euclid Circular B;
+      }
+    }
+    span{
+      font-size: 40px;
+      font-weight: 600;
+    }
+    .end-date-text{
+      font-size: 35px;
+      font-family:sans-serif  Circular B;
+    }
+  }
+@media only screen and (max-width: 600px) {
+  .countdown-time{
+    width: auto !important;
+  }    
+}
+@media only screen and (max-width: 768px) {
+  .countdown-time{
+    width: 400px;
+    .end-date-text{
+      font-size: 23px;
+      font-family:sans-serif  Circular B;
+    }
+  }    
+}

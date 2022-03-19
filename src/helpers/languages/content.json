@@ -1,0 +1,172 @@
+{
+  "Home": {
+    "en": "Home",
+    "ru": "Домашняя",
+    "tr": "Ana sayfa"
+  },
+  "News": {
+    "en": "News",
+    "ru": "Новости",
+    "tr": "Haberler"
+  },
+  "Who_is_IFO": {
+    "en": "Who is IFO",
+    "ru": "Кто IFO",
+    "tr": "IFO kimdir?"
+  },
+  "Projects": {
+    "en": "Projects",
+    "ru": "Проекты",
+    "tr": "Projeler"
+  },
+  "Partners": {
+    "en": "Partners",
+    "ru": "Партнеры",
+    "tr": "Ortaklar"
+  },
+  "Careers": {
+    "en": "Careers",
+    "ru": "Карьера",
+    "tr": "Kariyer"
+  },
+  "IFO_Coin": {
+    "en": "IFO Coin",
+    "ru": "IFO Коин",
+    "tr": "IFO Koin"
+  },
+  "CONTACT": {
+    "en": "CONTACT",
+    "ru": "КОНТАКТ",
+    "tr": "İLETİŞİM"
+  },
+  "TERM&CONDITIONS": {
+    "en": "TERM & CONDITIONS",
+    "ru": "СРОК & УСЛОВИЯ",
+    "tr": "ŞART & KOŞULLAR"
+  },
+  "Privacy_Policy": {
+    "en": "Privacy Policy",
+    "ru": "Политика конфиденциальности",
+    "tr": "Gizlilik Politikası"
+  },
+  "Cookies": {
+    "en": "Cookies",
+    "ru": "Куки",
+    "tr": "Çerezler"
+  },
+  "Covid-19": {
+    "en": "Covid - 19",
+    "ru": "Ковид - 19",
+    "tr": "Kovid - 19"
+  },
+  "Add_your_e-mail_here": {
+    "en": "Add your e-mail here",
+    "ru": "Добавьте сюда свой e-mail",
+    "tr": "E-postanızı buraya ekleyin"
+  },
+  "sign_up": {
+    "en": "SIGN UP",
+    "ru": "РЕГИСТРИРОВАТЬ",
+    "tr": "ÜYE OL"
+  },
+  "ABOUT_US": {
+    "en": "ABOUT US",
+    "ru": "О НАС",
+    "tr": "HAKKIMIZDA"
+  },
+  "Who_is_IFO_title": {
+    "en": "Hello! We would like to share our story with you…",
+    "ru": "Привет! Мы хотели бы поделиться с вами нашей историей ...",
+    "tr": "Merhaba! Hikayemizi sizlerle paylaşmak isteriz…"
+  },
+  "ALL_NEWS": {
+    "en": "ALL NEWS",
+    "ru": "ВСЕ НОВОСТИ",
+    "tr": "TÜM HABERLER"
+  },
+  "IFO_CORPORATION": {
+    "en": "IFO CORPORATION",
+    "ru": "ИФО КОРПОРАЦИЯ",
+    "tr": "IFO KURUMSAL"
+  },
+  "IFO_CREATIVE": {
+    "en": "IFO CREATIVE",
+    "ru": "ИФО КРЕАТИВ",
+    "tr": "IFO YARATICI"
+  },
+  "IFO_COMPANY": {
+    "en": "IFO COMPANY",
+    "ru": "ИФО КОМПАНИЯ",
+    "tr": "İFO ŞİRKET"
+  },
+  "IFO_CLOTHING": {
+    "en": "IFO CLOTHING",
+    "ru": "ИФО ОДЕЖДА",
+    "tr": "İFO GİYİM"
+  },
+  "OTHER": {
+    "en": "OTHER",
+    "ru": "РАЗНОЕ",
+    "tr": "DİĞER"
+  },
+  "January": {
+    "en": "January",
+    "ru": "Январь",
+    "tr": "Ocak"
+  },
+  "February": {
+    "en": "February",
+    "ru": "Февраль",
+    "tr": "Şubat"
+  },
+  "March": {
+    "en": "March",
+    "ru": "Март",
+    "tr": "Mart"
+  },
+  "April": {
+    "en": "April",
+    "ru": "Апрель",
+    "tr": "Nisan"
+  },
+  "May": {
+    "en": "May",
+    "ru": "Май",
+    "tr": "Mayıs"
+  },
+  "June": {
+    "en": "June",
+    "ru": "Июнь",
+    "tr": "Haziran"
+  },
+  "July": {
+    "en": "July",
+    "ru": "Июль",
+    "tr": "Temmuz"
+  },
+  "August": {
+    "en": "August",
+    "ru": "Aвгуст",
+    "tr": "Ağustos"
+  },
+  "September": {
+    "en": "September",
+    "ru": "Сентябрь",
+    "tr": "Eylül"
+  },
+  "October": {
+    "en": "October",
+    "ru": "Октябрь",
+    "tr": "Ekim"
+  },
+  "November": {
+    "en": "November",
+    "ru": "Ноябрь",
+    "tr": "Kasım"
+  },
+  "December": {
+    "en": "December",
+    "ru": "Декабрь",
+    "tr": "Aralık"
+  }
+}

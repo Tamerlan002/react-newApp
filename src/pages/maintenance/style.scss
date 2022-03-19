@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+
+.maintenance{
+    padding-top: 100px;
+    color: $white;
+    .maintenance-section{
+        width: 89%;
+        .title{
+            h4{
+                font-size: 70px;
+                font-weight: 700;
+                line-height: 75px;
+                font-family: sans-serif Euclid Circular B;
+                margin-left: 0 !important;
+              }
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+    .maintenance{
+        padding-top: 0px !important;
+      .home__slogan--title{
+        font-size: 50px !important;
+        margin-top: 60px;
+      }
+  }
+  }

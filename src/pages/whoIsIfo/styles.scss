@@ -1,0 +1,592 @@
+@import "../../styles/variables.scss";
+@import "../home/styles.scss";
+.whoisifo {
+  color: $white;
+  padding-top: 120px;
+  .home__shadowText {
+    overflow-x: hidden !important;
+  }
+  .shadow-title {
+    overflow-x: hidden;
+  }
+  .home__shadowText--title {
+    font-size: 135px;
+    font-family: sans-serif Euclid Circular B;
+    letter-spacing: 0.03em;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-top: 50px;
+    font-weight: 900;
+  }
+  // Ifo info Sec  (first sec)
+  .ifo-info {
+    margin-top: 30px;
+    width: 89%;
+    .title {
+      margin-bottom: 20px;
+    }
+    h4 {
+      width: 700px;
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 75px;
+      font-family: sans-serif Euclid Circular;
+      margin-left: 0 !important;
+    }
+    .sub-title {
+      P {
+        width: 549px;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 48px;
+        letter-spacing: 0.03em;
+      }
+    }
+  }
+
+  //  Ifo Section (second sec)
+  .Ifo-section {
+    overflow: hidden !important;
+    .normal-part {
+      display: flex;
+      justify-content: space-between;
+      .about {
+        position: relative;
+        .background-title {
+          position: absolute;
+          opacity: 0.04;
+          overflow: hidden;
+          top: 15px;
+          left: -155px;
+          text-align: center;
+          h2 {
+            color: rgba(255, 255, 255, 1);
+            font-size: 150px;
+            font-weight: bold;
+            font-family: sans-serif;
+            letter-spacing: 0.02em;
+          }
+        }
+        .text {
+          padding-top: 100px;
+          h1 {
+            font-weight: bold;
+            font-size: 72px;
+            font-family: sans-serif Euclid Circular;
+          }
+          p {
+            font-size: 16px;
+            font-family: sans-serif Euclid Circular;
+            line-height: 40px;
+            letter-spacing: 0.03em;
+            width: 67%;
+          }
+        }
+      }
+    }
+    .reverse-part {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      .about {
+        position: relative;
+        .background-title {
+          position: absolute;
+          opacity: 0.04;
+          overflow: hidden;
+          top: 15px;
+          left: -60px;
+          text-align: center;
+          h2 {
+            color: rgba(255, 255, 255, 1);
+            font-size: 150px;
+            font-weight: bold;
+            font-family: sans-serif;
+            letter-spacing: 0.04em;
+          }
+        }
+        .text {
+          padding-top: 100px;
+          h1 {
+            text-transform: capitalize;
+            font-weight: bold;
+            font-size: 70px;
+            font-family: sans-serif Euclid Circular;
+          }
+          p {
+            font-size: 16px;
+            font-family: sans-serif Euclid Circular;
+            line-height: 40px;
+            letter-spacing: 0.03em;
+            width: 67%;
+          }
+        }
+      }
+    }
+    .img {
+      padding-top: 80px;
+      img {
+        width: 320px;
+        height: 400px;
+      }
+    }
+  }
+
+  // Animation full Section (third sec)
+  .ads-section {
+    background-color: black !important;
+    .ads-info {
+      width: 89%;
+      text-align: center !important;
+      h1 {
+        font-family: sans-serif Euclid Circular B;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 75px;
+      }
+      .ads-subtitle {
+        width: 50%;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin: auto;
+      }
+    }
+    .ads-description1 {
+      font-size: 16px;
+      line-height: 48px;
+      letter-spacing: 0.03em;
+      text-align: center;
+      font-family: sans-serif Euclid Circular B;
+    }
+    .ads-description2 {
+      font-family: sans-serif Euclid Circular B;
+      font-weight: normal;
+      font-size: 23px;
+      line-height: 48px;
+      letter-spacing: 0.03em;
+    }
+    .ads-title {
+      font-weight: bold;
+      font-size: 72px;
+      font-family: sans-serif Euclid Circular B;
+      line-height: 80px;
+    }
+    .home__logo {
+      display: flex;
+      justify-content: center !important;
+      .home__logo--wrapper {
+        justify-content: center !important;
+        overflow: hidden;
+      }
+    }
+  }
+
+  // Team Section (fourth sec)
+  .ifo-team-section {
+    overflow: hidden;
+    padding-top: 130px;
+    .ifo-team-info {
+      width: 89%;
+    }
+    .title {
+      position: relative;
+      .background-title {
+        position: absolute;
+        opacity: 0.04;
+        top: -70px;
+        left: -100px;
+        text-align: center;
+        h2 {
+          color: rgba(255, 255, 255, 1);
+          font-size: 120px;
+          font-weight: bold;
+          font-family: sans-serif Euclid Circular B;
+          letter-spacing: 0.04em;
+        }
+      }
+      h4 {
+        width: auto;
+        font-weight: bold;
+        font-size: 72px;
+        margin-left: 0 !important;
+        font-family: sans-serif Euclid Circular B;
+        margin-bottom: 100px;
+      }
+    }
+    .team-position {
+      font-weight: 600;
+      font-size: 24px;
+      font-family: sans-serif Euclid Circular B;
+    }
+    .team-workers {
+      cursor: pointer;
+    }
+    .workers-name {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-weight: 600;
+      font-family: sans-serif Euclid Circular B;
+      font-size: 16px;
+    }
+    hr {
+      height: 0.5px;
+      opacity: 1;
+      width: 57%;
+      color: white;
+    }
+    .query {
+      padding-top: 100px;
+      .review {
+        h2 {
+          font-family: Euclid Circular B;
+          font-weight: 600;
+          font-size: 32px;
+          letter-spacing: 0.03em;
+        }
+      }
+      .cta {
+        margin-left: -53px;
+        i {
+          transform: translateX(20px);
+        }
+        &:hover i {
+          transform: translateX(53px);
+        }
+        .hover-underline-animation:after {
+          width: 132px !important;
+        }
+        &:hover {
+          i {
+            color: #ffd700;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 490px) {
+  // Animation Section (third sec)
+  .home {
+    &__logo {
+      justify-content: center !important;
+      &--wrapper {
+        width: 300px;
+      }
+      &--img,
+      &--img1 {
+        width: 60px !important;
+        height: 40px !important;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+      }
+      &--img {
+        animation-name: IfoIcon2 !important;
+      }
+      &--img1 {
+        animation-name: IfoIcon3 !important;
+      }
+      &--box {
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 30px !important;
+      }
+      @keyframes IfoIcon2 {
+        0% {
+          top: 30px;
+          left: 65px;
+        }
+        25% {
+          left: 175px;
+          top: 30px;
+        }
+        50% {
+          left: 175px;
+          top: 130px;
+        }
+        75% {
+          left: 65px;
+          top: 130px;
+        }
+        100% {
+          top: 30px;
+          left: 65px;
+        }
+      }
+      @keyframes IfoIcon3 {
+        0% {
+          left: 65px;
+          top: 380px;
+          z-index: -1;
+        }
+        25% {
+          left: 176px;
+          top: 380px;
+          z-index: -1;
+        }
+        50% {
+          left: 176px;
+          top: 240px;
+          z-index: 2;
+        }
+        75% {
+          left: 65px;
+          top: 240px;
+          z-index: 2;
+        }
+        100% {
+          top: 380px;
+          left: 65px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .whoisifo {
+    .home__shadowText--title {
+      font-size: 73px !important;
+    }
+
+    // Ifo info Sec  (first sec)
+    .ifo-info {
+      h4 {
+        font-size: 32px;
+      }
+      .sub-title {
+        p {
+          width: 100% !important;
+          font-size: 15px !important;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  // Ifo info Sec
+  .ifo-info {
+    .about {
+      .background-title {
+        left: -70px !important;
+        top: -20px !important;
+        h2 {
+          font-size: 100px !important;
+        }
+      }
+      .text {
+        h1 {
+          font-size: 60px !important;
+        }
+        p {
+          font-size: 15px !important;
+        }
+      }
+    }
+    .img {
+      height: auto;
+      padding-top: 0;
+      img {
+        width: 400px;
+      }
+    }
+  }
+  // Animation full Section
+  .ads-info {
+    .ads-description2 {
+      font-size: 18px !important;
+    }
+  }
+  // Team Section
+  .ifo-team-info {
+    .title {
+      .home__slogan--title {
+        font-size: 40px !important;
+      }
+      .background-title {
+        top: -40px !important ;
+        h2 {
+          font-size: 60px !important;
+        }
+      }
+    }
+    .query {
+      .cta {
+        margin-left: -45px !important;
+      }
+      h2 {
+        font-size: 20px !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .whoisifo {
+    padding-top: 80px;
+    .home__shadowText--title {
+      font-size: 90px;
+    }
+    // Ifo info Sec
+    .ifo-info {
+      .home__slogan--title {
+        width: 100% !important;
+        font-size: 30px;
+      }
+      .sub-title {
+        p {
+          width: 100%;
+          font-size: 22px;
+        }
+      }
+      .about {
+        .background-title {
+          left: -30px;
+          top: -15px;
+          h2 {
+            font-size: 110px;
+          }
+        }
+        .text {
+          padding-top: 50px !important;
+        }
+      }
+      .img {
+        height: auto;
+        padding-top: 0;
+        img {
+          width: 300px;
+          height: auto;
+        }
+      }
+    }
+  }
+  // Animation full Section
+  .ads-info {
+    .ads-title {
+      font-size: 38px !important;
+    }
+    .ads-subtitle {
+      width: 65% !important;
+      font-size: 17px !important;
+    }
+    .ads-description1 {
+      font-size: 15px;
+    }
+    .ads-description2 {
+      font-size: 20px;
+    }
+    .home__logo {
+      justify-content: center !important;
+      &--img,
+      &--img1 {
+        width: 120px;
+        height: 70px;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+      }
+      &--img {
+        animation-name: IfoIcon;
+      }
+      &--img1 {
+        animation-name: IfoIcon1;
+      }
+      &--box {
+        width: 160px;
+        height: 160px;
+      }
+    }
+  }
+  // Team Section
+  .ifo-team-info {
+    .title {
+      .home__slogan--title {
+        font-size: 40px !important;
+      }
+      .background-title {
+        top: -20px !important ;
+        left: -70px !important;
+        h2 {
+          font-size: 55px !important;
+        }
+      }
+    }
+    .workers-name {
+      font-size: 15px !important;
+    }
+    .query {
+      h2 {
+        font-size: 25px;
+      }
+    }
+  }
+
+  // Animation keyframes
+  @keyframes IfoIcon {
+    0% {
+      top: 45px;
+      left: 40px;
+    }
+    25% {
+      left: 205px;
+      top: 45px;
+    }
+    50% {
+      left: 205px;
+      top: 210px;
+    }
+    75% {
+      left: 40px;
+      top: 210px;
+    }
+    100% {
+      top: 45px;
+      left: 40px;
+    }
+  }
+  @keyframes IfoIcon1 {
+    0% {
+      left: 40px;
+      top: 585px;
+      z-index: -1;
+    }
+    25% {
+      left: 205px;
+      top: 585px;
+      z-index: -1;
+    }
+    50% {
+      left: 205px;
+      top: 370px;
+      z-index: 2;
+    }
+    75% {
+      left: 40px;
+      top: 370px;
+      z-index: 2;
+    }
+    100% {
+      top: 560px;
+      left: 40px;
+      z-index: -1;
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .whoisifo {
+    // Team Section
+    .ifo-team-info {
+      .title {
+        .background-title {
+          h2 {
+            font-size: 100px;
+            left: -100px;
+          }
+        }
+      }
+    }
+  }
+}

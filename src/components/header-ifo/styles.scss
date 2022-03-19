@@ -1,0 +1,125 @@
+@import "../../styles/variables.scss";
+.header {
+  padding-top: 30px;
+  color: $white !important;
+  z-index: 111;
+  background-color: $background-color !important;
+  .span{
+    i{
+      color: white !important;
+      font-size: 25px !important;
+      padding-top: 3px;
+    }
+  }
+  &-logo {
+    width: 44px;
+    height: 23px;
+  }
+  &__socials {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+
+    &:hover,
+    &:active &:focus {
+      background-color: none !important;
+      background: none;
+    }
+  }
+  &__links {
+    &--item {
+      text-decoration: none;
+      color: $white;
+      margin-right: 60px;
+      font-family: "Euclid-Circular-B-Regular";
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 19px;
+      letter-spacing: 0.02em;
+      padding-bottom: 3px;
+      position: relative;
+      transition: 0.4s;
+      &:hover {
+        color: $white;
+        &::before {
+          opacity: 1;
+        }
+      }
+      &::before {
+        content: "";
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+        left: 0%;
+        border-top: 1px solid $white;
+        transition: all 0.4s;
+      }
+    }
+  }
+  &__lang {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: $white;
+    outline: none;
+    font-family: "Euclid-Circular-B-Regular";
+    font-size: 13px;
+    line-height: 24px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    &--item {
+      font-size: 13px !important;
+      line-height: 24px !important;
+      background-color: #212121;
+      &:hover {
+        background-color: #212121;
+      }
+    }
+    option:hover {
+      background-color: #212121;
+    }
+  }
+}
+
+.show > .btn-primary.dropdown-toggle {
+  background-color: transparent;
+  &:focus,
+  &:active {
+    box-shadow: none !important;
+  }
+}
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.btn-primary {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none;
+  &:focus,
+  &:hover {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none !important;
+  }
+}
+
+.dropdown-menu {
+  background-color: transparent !important;
+  background: $background;
+  color: $white !important;
+  min-width: 50px !important;
+  transform: translate(0px 38px);
+}
+
+.dropdown-item {
+  color: $white !important;
+  font-size: 20px;
+  transition: 0.4s;
+  &:hover {
+    background-color: $blue-whale-creative !important;
+  }
+}

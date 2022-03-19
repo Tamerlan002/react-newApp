@@ -1,0 +1,323 @@
+@import "../../styles/variables.scss";
+
+.home {
+  padding-top: 100px;
+  color: $white;
+  position: relative;
+  overflow: hidden;
+  &__shadowText {
+    position: absolute;
+    left: -55px;
+    top: 83px;
+    white-space: nowrap;
+    display: flex;
+    &--title {
+      font-size: 130px;
+      font-weight: 900;
+      letter-spacing: 0.04em;
+      color: rgba(255, 255, 255, 0.1);
+    }
+  }
+  &-wrapper {
+    width: 89%;
+    margin-bottom: 100px;
+    overflow: hidden;
+  }
+  &__slogan {
+    &--title {
+      font-weight: bold;
+      font-size: 70px;
+      font-family: sans-serif 
+      Euclid Circular B;
+      width: 486px;
+    }
+    &--text {
+      font-size: 16px;
+      letter-spacing: 0.03em;
+    }
+  }
+  &__logo {
+     display: flex;
+     justify-content: end;
+    &--wrapper {
+      position: relative;
+      display: flex;
+      z-index: 4;
+      width: 362px;
+      flex-wrap: wrap;
+    }
+    &--img {
+      position: absolute;
+      z-index: 3;
+      top: 53px;
+      left: 23px;
+      width: 132px;
+      height: 73px;
+      animation-name: ifoIcon;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+    }
+    &--img1 {
+      position: absolute;
+      z-index: 3;
+      opacity: 0.4;
+      top: 53px;
+      left: 23px;
+      width: 132px;
+      height: 73px;
+      animation-name: ifoIcon1;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+    }
+    &--box {
+      width: 179px;
+      height: 179px;
+      background-color: $blue-whale-creative;
+      border-radius: 50px;
+      margin: 0 2px 2px 0;
+      z-index: 2;
+    }
+    .item1 {
+      background-color: $bleached-corp;
+    }
+    .item2 {
+      background-color: $daintree-company;
+    }
+    .item3 {
+      background-color: $blue-whale-creative;
+    }
+    .item4 {
+      background-color: $ebony-clay-clothing;
+    }
+    .item5 {
+      opacity: 0.5;
+      background: linear-gradient(0deg, #0d2d42 0%, rgba(13, 45, 66, 0.16) 96.31%);
+      transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .item6 {
+      opacity: 0.5;
+      background: linear-gradient(0.9deg, #243243 0.92%, rgba(36, 50, 67, 0.16) 106.52%);
+      transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+  }
+}
+
+@keyframes ifoIcon {
+  0% {
+    top: 53px;
+    left: 23px;
+  }
+  25% {
+    left: 210px;
+    top: 53px;
+  }
+  50% {
+    left: 210px;
+    top: 233px;
+  }
+  75% {
+    left: 23px;
+    top: 233px;
+  }
+  100% {
+    top: 53px;
+    left: 23px;
+  }
+}
+@keyframes ifoIcon1 {
+  0% {
+    left: 23px;
+    top: 593px;
+    z-index: -1;
+  }
+  25% {
+    left: 210px;
+    top: 593px;
+    z-index: -1;
+  }
+  50% {
+    left: 210px;
+    top: 413px;
+    z-index: 2 ;
+  }
+  75% {
+    left: 23px;
+    top: 413px;
+    z-index: 2;
+  }
+  100% {
+    top: 593px;
+    left: 23px;
+    z-index: -1;
+  }
+}
+@media (max-width: 450px) {
+  .home{
+    &__logo{
+      justify-content: center !important;
+      &--wrapper{
+        justify-content: center;
+        width: 330px;
+      }
+      &--img,&--img1{
+        width: 70px !important;
+        height: 30px !important;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      }
+      &--img{
+        animation-name: IfoIcon4 !important;
+      }
+      &--img1{
+        animation-name: IfoIcon5 !important;
+      }
+      &--box{
+        width: 110px !important;
+        height: 110px !important;
+        border-radius: 30px !important;
+      }
+      @keyframes IfoIcon4{
+        0% {
+          top: 30px;
+          left: 60px;
+        }
+        25% {
+          left: 165px;
+          top: 30px;
+        }
+        50% {
+          left: 165px;
+          top: 150px;
+        }
+        75% {
+          left: 60px;
+          top: 150px;
+        }
+        100% {
+          top: 30px;
+          left: 60px;
+        }
+      }
+      @keyframes IfoIcon5 {
+        0% {
+          left: 60px;
+          top: 400px;
+          z-index: -1;
+        }
+        25% {
+          left: 175px;
+          top: 400px;
+          z-index: -1;
+        }
+        50% {
+          left: 175px;
+          top: 260px;
+          z-index: 2 ;
+        }
+        75% {
+          left: 60px;
+          top: 260px;
+          z-index: 2;
+        }
+        100% {
+          top: 400px;
+          left: 60px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .home{
+    &__slogan{
+      &--title{
+        font-size: 55px !important;
+        width: auto !important;
+      }
+    }
+}
+}
+@media (max-width: 992px) {
+  .home{
+    padding-top: 80px;
+    .home__shadowText--title {
+      font-size: 90px;
+    }
+    &__slogan{
+      &--title{
+        font-size: 60px;
+        width: 400px;
+      }
+    }
+    &__logo{
+      justify-content: center !important;
+      &--img,&--img1{
+        width: 120px;
+        height: 70px;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      }
+      &--img{
+        animation-name: IfoIcon2;
+      }
+      &--img1{
+        animation-name: IfoIcon3;
+      }
+      &--box{
+        width: 160px;
+        height: 160px;
+      }
+    }
+    
+  }
+  @keyframes IfoIcon2 {
+    0% {
+      top: 45px;
+      left: 20px ;
+    }
+    25% {
+      left: 185px ;
+      top: 45px ;
+    }
+    50% {
+      left: 185px;
+      top: 210px;
+    }
+    75% {
+      left: 20px ;
+      top: 210px;
+    }
+    100% {
+      top: 45px;
+      left: 20px;
+    }
+  }
+  @keyframes IfoIcon3 {
+    0% {
+      left: 20px;
+      top: 585px;
+      z-index: -1;
+    }
+    25% {
+      left: 185px;
+      top: 585px;
+      z-index: -1;
+    }
+    50% {
+      left: 185px;
+      top: 370px;
+      z-index: 2 ;
+    }
+    75% {
+      left: 20px;
+      top: 370px;
+      z-index: 2;
+    }
+    100% {
+      top: 560px;
+      left: 20px;
+      z-index: -1;
+    }
+  }
+}

@@ -1,0 +1,117 @@
+.singleNews {
+  padding-top: 130px;
+  .single-news {
+    display: flex;
+    justify-content: center;
+    .single-news-section {
+      width: 89%;
+    }
+    .title {
+      font-size: 24px;
+      line-height: 40px;
+      letter-spacing: 0.03em;
+      color: white;
+      font-weight: 600;
+      font-family: sans-serif;
+    }
+  }
+  .home__shadowText {
+    overflow-x: hidden;
+    z-index: 0;
+  }
+  .home__shadowText--title {
+    font-size: 140px;
+    font-family: sans-serif Euclid Circular B;
+    letter-spacing: 0.04em;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-top: 50px;
+    font-weight: 900;
+  }
+  .news-second-part {
+    h1 {
+      font-weight: 600;
+      font-size: 24px;
+      font-family: sans-serif;
+      line-height: 40px;
+      letter-spacing: 0.03em;
+    }
+    .detail-image{
+      width: 100%;
+      height: 90%;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+    }
+  }
+}
+.ifo-frame {
+  padding: 4px 6px;
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+}
+
+.description {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 48px;
+  text-align: justify;
+  color: white;
+}
+/* News Section */
+
+.news-subtitle {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+}
+
+.ifo-name {
+  padding: 4px 6px;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+.shared-time {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.08em;
+}
+.news-intro {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+@media only screen and (max-width: 600px) {
+  .singleNews {
+    .home__shadowText--title {
+      font-size: 90px !important;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .singleNews {
+    .single-news-section {
+      h4 {
+        font-size: 32px !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .singleNews {
+    padding-top: 90px;
+    .home__shadowText--title {
+      font-size: 100px;
+    }
+    .single-news-section {
+      h4 {
+        font-size: 40px;
+      }
+    }
+  }
+}
